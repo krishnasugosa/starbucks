@@ -17,7 +17,7 @@ togle.onclick = function(){
 togle2.onclick = function(){
     togle.style.display = "block"
     togle2.style.display = "none"
-    posisiIMG.style.top = -120 + "px"
+    posisiIMG.style.top = -110 + "px"
     posisiIMG.style.transition = "1s ease-in"
 }
 
