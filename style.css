@@ -225,13 +225,13 @@ a:link{
     }
 
     .drink-image{
-        width: 600px;
+        width: 300px;
         height: 300px;
     }
 
     #posisi-imgho{
         position: relative;
-        top: -84px;
+        top: -90px;
     }
 
     #buletan{
@@ -255,4 +255,23 @@ a:link{
        display: none;
     }
 
+    .cs{
+        display: none;
+    }
+
+    .text-2{
+         display: none;
+    }
+    
+    .text-3{
+         display: none;
+    }
+
+     .text-4{
+         display: none;
+    }
+
+    .text-6{
+        font-size: 15px;
+    }
 }
