@@ -17,40 +17,40 @@ togle.onclick = function(){
 togle2.onclick = function(){
     togle.style.display = "block"
     togle2.style.display = "none"
-    posisiIMG.style.top = -110 + "px"
+    posisiIMG.style.top = -108 + "px"
     posisiIMG.style.transition = "1s ease-in"
 }
 
 
 
 minum1.onmouseenter = function(){
-    minum1.style.transform = "scale(2)"
+    minum1.style.transform = "translateY(-1.2rem)"
     minum1.style.transition = "2s ease"
 }
 
 minum2.onmouseenter = function(){
-    minum2.style.transform = "scale(2)"
+    minum2.style.transform = "translateY(-1.2rem)"
     minum2.style.transition = "2s ease"
 }
 
 minum3.onmouseenter = function(){
-    minum3.style.transform = "scale(2)"
+    minum3.style.transform = "translateY(-1.2rem)"
     minum3.style.transition = "2s ease"
 }
 
 
 minum1.onmouseleave = function(){
-    minum1.style.transform = "scale(1)"
+    minum1.style.transform = ""
     minum1.style.transition = "2s ease"
 }
 
 minum2.onmouseleave = function(){
-    minum2.style.transform = "scale(1)"
+    minum2.style.transform = ""
     minum2.style.transition = "2s ease"
 }
 
 minum3.onmouseleave = function(){
-    minum3.style.transform = "scale(1)"
+    minum3.style.transform = ""
     minum3.style.transition = "2s ease"
 }
 
