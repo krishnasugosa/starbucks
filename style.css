@@ -185,7 +185,7 @@ a:link{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media( max-width:600px) {
     .nav-0{
         background-color: rgb(223, 186, 62);
         height: 50px;
@@ -225,13 +225,13 @@ a:link{
     }
 
     .drink-image{
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 250px;
     }
 
     #posisi-imgho{
         position: relative;
-        top: -110px;
+        top: -108px;
     }
 
     #buletan{
@@ -255,23 +255,45 @@ a:link{
        display: none;
     }
 
-    .cs{
+    .text-5{
+        display: none;
+     }
+ 
+     .cs{
+         display: none;
+     }
+ 
+     .text-2{
+          display: none;
+     }
+     
+     .text-3{
+          display: none;
+     }
+ 
+      .text-4{
+          display: none;
+     }
+ 
+     .text-6{
+         font-size: 12px;
+     }
+
+}
+
+@media(width<=884px){
+    #buletan{
         display: none;
     }
+}
 
-    .text-2{
-         display: none;
-    }
-    
-    .text-3{
-         display: none;
-    }
-
-     .text-4{
-         display: none;
+@media(max-width:1280px){
+    #buletan{
+        width: 260px;
+        height: 500px;
     }
 
-    .text-6{
-        font-size: 15px;
+    .img-posisi2 li{
+         left: 20px;
     }
 }
